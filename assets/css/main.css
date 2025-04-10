@@ -2052,6 +2052,13 @@ ul.actions li:first-child {
   margin: -4em 0 4em -4em;
   width: auto;
 }
+.box.style2:hover {
+  z-index: 1;
+  scale: 1.1;
+  transition: 0.5s;
+  overflow: hidden;
+  box-shadow: 0.5em 1em 0.5em #494343;
+}
 
 /* Icons */
 
@@ -2111,8 +2118,8 @@ ul.actions li:first-child {
 }
 
 .wrapper.style1 {
-  background-image: url("images/profile2.jpg");
-  background-color: #edeef3;
+  background-image: url("images/bg.png");
+  background-color: #9ccace;
   background-position: center;
   background-size: cover;
 }
